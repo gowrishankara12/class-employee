@@ -1,0 +1,13 @@
+class Employee:
+    def _init_(self, name, age, gender, company, salary):
+        self.name = name
+        self.age = age
+        self.gender = gender
+        self.company = company
+        self.salary = salary
+
+employee1 = Employee("Thala", 18, "male", "KIA", "1M Per Annum")
+employee2 = Employee("Ziva", 19, "Female", "BMW", "2M Per Annum")
+
+print(f"{employee1.name}, {employee1.age}, {employee1.gender}, {employee1.company}, {employee1.salary}")
+print(f"{employee2.name}, {employee2.age}, {employee2.gender}, {employee2.company}, {employee2.salary}")
